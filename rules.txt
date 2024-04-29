@@ -1,0 +1,12 @@
+S -> aAb
+A -> #|aAb
+;
+S -> 0S0|1S1|#
+;
+S -> aXbYc
+X -> aX|#
+Y -> bYc|#
+;
+S -> X#|#
+X -> XX|1|0
+;
